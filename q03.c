@@ -3,10 +3,10 @@
 
 main(){
     int v[20], valor, s = 0;
-    printf("Digite os 20 elementos do vetor");
+    printf("Digite os 20 itens do vetor");
 
     for(int i = 0; i < 20; i++){
-        printf("\nElemento %d: ", i+1);
+        printf("\nItem %i: ", i+1);
         scanf("%i", &valor);
         v[i] = valor;
     }
@@ -15,6 +15,6 @@ main(){
         s += pow(v[i] - v[19 - i], 2);
     }
 
-    printf("\nS = %d", s);
-    printf("\n");
+    printf("\nS = %i", s);
+    printf("\n\n");
 }
