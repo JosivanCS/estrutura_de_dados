@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+
 
 main(){
     int n;
@@ -16,9 +18,11 @@ main(){
         v[i] = atual;
     }
 
+    printf("\n");
+
     for(int i = 0; i < n; i++){
         printf(" %i", v[i]);
     }
 
-    printf("\n");
+    printf("\n\n");
 }
