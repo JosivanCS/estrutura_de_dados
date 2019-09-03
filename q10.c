@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+
 
 main(){
     float v[] = {}, valor, somatorio = 0, media = 0;
